@@ -38,7 +38,7 @@ def communicate():
 
 # ユーザーインターフェイスの構築
 st.title(" 「占い」ボット")
-st.image("06_fortunetelling.png")
+st.image("fortune-telling picture.png")
 st.write("あなたの運勢をタロットで占います。何を占って欲しいですか？")
 
 user_input = st.text_input("メッセージを入力してください。", key="user_input", on_change=communicate)
